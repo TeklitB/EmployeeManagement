@@ -3,7 +3,7 @@
 Dontinuous Delivery
 - we automatically deploy the application after the application is build and test runs successfully
 GitHub Action
-- A build system used for CICD
+- A build system used for CICD  (or CI platform of GitHub)
 - It automatically build the application and create executables (i.e. dll files in dotnet)
 
 Publishing application using Visual Studio
