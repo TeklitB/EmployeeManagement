@@ -1,0 +1,27 @@
+﻿Continuous Integration 
+- we use build server to build the application and run regression tests (i.e. Unit Tests, Integration Tests)
+Dontinuous Delivery
+- we automatically deploy the application after the application is build and test runs successfully
+GitHub Action
+- A build system used for CICD
+- It automatically build the application and create executables (i.e. dll files in dotnet)
+
+Publishing application using Visual Studio
+- It is not recommended to do publishing from Visual Studio
+- Because it is not:
+	- reliable
+	- repeatable
+	- secure
+
+Use CICD tools instead
+- Because it reliable, repeatable and secure.
+
+In Visual Studio Code
+- There is a gitignore extension that automatically generate the gitignore contents
+- Another option gitignore.io --> VisualStudio ->> Create
+	- It generates all necessary gitignore commands for Visual Studio
+- There is GitHub Actions extension that help writing the CICD commands in the yaml file
+
+Steps are sequence of actions. Example
+- Checkout -> actions/checkout@v3
+- Setup dotnet ->
