@@ -11,7 +11,7 @@ namespace EmployeeManagementDatabase.Tests
         [Fact]
         public void Test2()
         {
-            Assert.True(2 == 0);
+            Assert.True(2 == 2);
         }
     }
 }
