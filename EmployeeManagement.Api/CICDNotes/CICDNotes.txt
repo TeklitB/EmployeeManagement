@@ -25,3 +25,5 @@ In Visual Studio Code
 Steps are sequence of actions. Example
 - Checkout -> actions/checkout@v3
 - Setup dotnet -> actions/setup-dotnet@v3
+
+Sonarcloud.io -> you can integarate your github repo with sonar cloud.
