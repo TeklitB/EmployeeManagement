@@ -27,3 +27,6 @@ Steps are sequence of actions. Example
 - Setup dotnet -> actions/setup-dotnet@v3
 
 Sonarcloud.io -> you can integarate your github repo with sonar cloud.
+
+Publish action in .NET 7 change
+- Instead of -o DIR or --output DIR you now need to use --property:PublishDir=DIR
